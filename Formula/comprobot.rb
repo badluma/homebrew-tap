@@ -8,6 +8,14 @@ class Comprobot < Formula
   license "MIT"
   head "https://github.com/badluma/Comprobot.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/badluma/Comprobot/releases/download/v2.5.0"
+    rebuild 1
+    sha256 cellar: :any, arm64_tahoe:   "bdfb1c3d60a81e72cf09515b903c2ca20ac24d7e81bc06ce206ad8127ad1bc52"
+    sha256 cellar: :any, arm64_sequoia: "09ee83d13c35e371a292129d13f2338015453f1702212c46d5e56bd3c899083c"
+    sha256 cellar: :any, arm64_sonoma:  "dadc2d87555e4d3526f3d097c125426c28250f21bcf70c6fb1a2b471879ef78c"
+  end
+
   depends_on "python3"
   depends_on "rust" => :build
 
