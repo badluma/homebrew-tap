@@ -3,8 +3,8 @@ class Comprobot < Formula
 
   desc "Self-hostable Discord bot built for maximum customization"
   homepage "https://badluma.github.io/Comprobot-Docs"
-  url "https://github.com/badluma/Comprobot/archive/refs/tags/v2.5.1.tar.gz"
-  sha256 "1b19d546b177391e043af8ee53172539161dbb01373d7802b5a4c1fc95bd0e86"
+  url "https://github.com/badluma/Comprobot/archive/refs/tags/v3.0.0.tar.gz"
+  sha256 "0992705e34179364646acd6e0183e150523bbfcdee22bae5b30895d4b2488a11"
   license "MIT"
   head "https://github.com/badluma/Comprobot.git", branch: "main"
 
